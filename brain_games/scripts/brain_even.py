@@ -14,9 +14,12 @@ def main():
             print("Correct!")
             i += 1
         else:
-            print(f"""'{answer}' is wrong answer ;(. Correct answer was '{even_or_no}'.\nLet's try again, {name}!""")
-            i = 0
-    print(f'Congratulations, {name}!')
+            print(f"'{answer}' is wrong answer ;(. \
+Correct answer was '{even_or_no}'.\nLet's try again, {name}!")
+            # i = 0
+            break
+    if i == 3:
+        print(f'Congratulations, {name}!')
 
 
 def randomize():
