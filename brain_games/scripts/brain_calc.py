@@ -9,7 +9,7 @@ def main():
     print(f'Hello, {user_name}!\nWhat is the result of the expression?')
     while user_score < 3:
         number_1, number_2, operation = random_number(), random_number(), random_operation()
-        question(number_1, operation, number_2)
+        question(number_1, number_2, operation)
         ai_answer = answer(operation, number_1, number_2)
         user_answer = input('Your answer: ')
         if str(ai_answer) == user_answer:
