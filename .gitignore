@@ -1,5 +1,5 @@
 .venv/
-.cast
+*.cast
 *.egg-info
 __pycache__
 dist/
