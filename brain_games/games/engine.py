@@ -34,11 +34,11 @@ def question(number_1, number_2, operation=' '):
 
 
 def answer(operation, number_1, number_2):
-    if operation == '+':
+    if operation == ' + ':
         return number_1 + number_2
-    elif operation == '-':
+    elif operation == ' - ':
         return number_1 - number_2
-    elif operation == '*':
+    elif operation == ' * ':
         return number_1 * number_2
 
 
