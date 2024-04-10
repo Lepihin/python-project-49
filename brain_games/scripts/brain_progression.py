@@ -9,7 +9,10 @@ def main():
     hello(user_name, 'What number is missing in the progression?')
     user_score = 0
     while user_score < 3:
-        list = arithmetic_progression(randint(1, 10), randint(1, 5), randint(5, 10))
+        start = randint(1, 10)
+        step = randint(1, 5)
+        quantity = randint(5, 10)
+        list = arithmetic_progression(start, step, quantity)
         random_number = randint(0, len(list) - 1)
         hidden = list[random_number]
         list[random_number] = '..'

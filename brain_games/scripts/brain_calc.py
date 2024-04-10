@@ -1,4 +1,5 @@
-from brain_games.games.engine import random_operation, random_number, question, answer
+from brain_games.games.engine import random_operation, random_number
+from brain_games.games.engine import question, answer
 
 
 def main():
@@ -8,7 +9,8 @@ def main():
     user_name = user_name.capitalize()
     print(f'Hello, {user_name}!\nWhat is the result of the expression?')
     while user_score < 3:
-        number_1, number_2, operation = random_number(), random_number(), random_operation()
+        number_1, number_2 = random_number(), random_number()
+        operation = random_operation()
         question(number_1, number_2, operation)
         ai_answer = answer(operation, number_1, number_2)
         user_answer = input('Your answer: ')
