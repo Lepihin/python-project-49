@@ -45,7 +45,7 @@ def answer(operation, number_1, number_2):
 def gcd(first_number, second_number):
     gcd = 1
     min_number = min(first_number, second_number)
-    for i in range(1, min_number):
+    for i in range(1, min_number + 1):
         if first_number % i == 0 and second_number % i == 0:
             gcd = i
     return gcd
