@@ -3,7 +3,8 @@ def main():
     welcome()
     user_name = input('May I have your name? ')
     hello(user_name, 'Find the greatest common divisor of given numbers.')
-    from brain_games.games.engine import random_number, question, wrong_answer, congrats, gcd
+    from brain_games.games.engine import random_number, question
+    from brain_games.games.engine import wrong_answer, congrats, gcd
     user_score = 0
     while user_score < 3:
         first_number = random_number()

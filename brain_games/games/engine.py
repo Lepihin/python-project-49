@@ -59,5 +59,9 @@ def arithmetic_progression(start, step, quantity):
     return list
 
 
+def main():
+    return None
+
+
 if __name__ == '__main__':
     main()
