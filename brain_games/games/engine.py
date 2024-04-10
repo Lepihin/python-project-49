@@ -4,13 +4,13 @@ def welcome():
     print('Welcome to the Brain Games!')
 
 
-def hello(name):
-    print(f'Hello, {name.capitalize()}!')
+def hello(name, question):
+    print(f'Hello, {name.capitalize()}!\n{question}')
 
 
 def wrong_answer(user_answer, correct_answer, name):
     print(f"'{user_answer}' is wrong answer ;(. \
-Correct answer was '{correct_answer}'.\nLet's try again, {name.capitalize()}")
+Correct answer was '{correct_answer}'.\nLet's try again, {name.capitalize()}!")
 
 
 def congrats(count, name):
@@ -51,5 +51,13 @@ def gcd(first_number, second_number):
     return gcd
 
 
+def arithmetic_progression(start, step, quantity):
+    list = []
+    for i in range(quantity):
+        list.append(start)
+        start += step
+    return list
+
+
 if __name__ == '__main__':
-    random_operation()
+    main()
