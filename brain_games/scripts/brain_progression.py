@@ -1,33 +1,9 @@
-from random import randint
-from brain_games.games.engine import welcome, hello, wrong_answer
-from brain_games.games.engine import congrats, arithmetic_progression
+from brain_games.games import brain_progression
+from brain_games.unreal_engine import run_game
 
 
 def main():
-    welcome()
-    user_name = input('May I have your name? ')
-    hello(user_name, 'What number is missing in the progression?')
-    user_score = 0
-    while user_score < 3:
-        start = randint(1, 10)
-        step = randint(1, 5)
-        quantity = randint(5, 10)
-        list = arithmetic_progression(start, step, quantity)
-        random_number = randint(0, len(list) - 1)
-        hidden = list[random_number]
-        list[random_number] = '..'
-        progression = ''
-        for i in range(0, len(list)):
-            progression += str(list[i]) + ' '
-        print(f'Question: {progression}')
-        user_answer = input('Your answer: ')
-        if user_answer == str(hidden):
-            print('Correct!')
-            user_score += 1
-        else:
-            wrong_answer(user_answer, hidden, user_name)
-            break
-    congrats(user_score, user_name)
+    run_game(brain_progression)
 
 
 if __name__ == '__main__':
