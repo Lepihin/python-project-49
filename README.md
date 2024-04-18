@@ -3,15 +3,22 @@
 
 <a href="https://codeclimate.com/github/Lepihin/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/75005184b117fd89224a/maintainability" /></a>
 
-[![asciicast](https://asciinema.org/a/H3e6pKW0XD8w88vaTNf2d0u73.svg)](https://asciinema.org/a/H3e6pKW0XD8w88vaTNf2d0u73)
+
+1. brain-calc game
+[![asciicast](https://asciinema.org/a/3tLroh1Iv5oet95LfYmyAeiwK.svg)](https://asciinema.org/a/3tLroh1Iv5oet95LfYmyAeiwK)
 
 
-[![asciicast](https://asciinema.org/a/CWy4neKaZCPJAkV7Wi4xoyrdH.svg)](https://asciinema.org/a/CWy4neKaZCPJAkV7Wi4xoyrdH)
+2. brain-even game
+[![asciicast](https://asciinema.org/a/8RkRekiZOGT8wT86UsTboEs87.svg)](https://asciinema.org/a/8RkRekiZOGT8wT86UsTboEs87)
 
 
-[![asciicast](https://asciinema.org/a/EJWBFuTzzmyGrQxtOZ0vYfPar.svg)](https://asciinema.org/a/EJWBFuTzzmyGrQxtOZ0vYfPar)
+3. brain-gcd game
+[![asciicast](https://asciinema.org/a/k3ftN4RRuvDs5Soe1uhpdyGcI.svg)](https://asciinema.org/a/k3ftN4RRuvDs5Soe1uhpdyGcI)
 
 
-[![asciicast](https://asciinema.org/a/j2oV7D1uWOQz9Swn2nlEfspS7.svg)](https://asciinema.org/a/j2oV7D1uWOQz9Swn2nlEfspS7)
+4. brain-prime game
+[![asciicast](https://asciinema.org/a/gV17Aht9QQf1HfV929Fe4b3Gd.svg)](https://asciinema.org/a/gV17Aht9QQf1HfV929Fe4b3Gd)
 
-[![asciicast](https://asciinema.org/a/uKSl0dekeb686Cq1cCAI0sjyU.svg)](https://asciinema.org/a/uKSl0dekeb686Cq1cCAI0sjyU)
+
+5. brain-progression game
+[![asciicast](https://asciinema.org/a/rkBukvGKgIdxgoDurnmGLv1L0.svg)](https://asciinema.org/a/rkBukvGKgIdxgoDurnmGLv1L0)
