@@ -12,9 +12,7 @@ def question_answer():
     random_number = randint(0, len(list) - 1)
     hidden = list[random_number]
     list[random_number] = '..'
-    progression = ''
-    for i in range(0, len(list)):
-        progression += str(list[i]) + ' '
+    progression = ' '.join(map(str, list))
     example = f'Question: {progression}'
     correct_answer = hidden
     return example, correct_answer

@@ -4,17 +4,14 @@ def run_game(game):
     user_name = user_name.capitalize()
     print(f'Hello, {user_name}!')
     print(game.question)
-    user_score = 0
-    while user_score < 3:
+    USER_SCORE = 3
+    for i in range(USER_SCORE):
         example, correct_answer = game.question_answer()
         print(example)
         user_answer = input('Your answer: ')
         if str(correct_answer).lower() == user_answer.lower():
             print('Correct!')
-            user_score += 1
         else:
-            print(f"'{user_answer}' is wrong answer ;(. \
+            return print(f"'{user_answer}' is wrong answer ;(. \
 Correct answer was '{correct_answer}'\nLet's try again, {user_name}!")
-            break
-    if user_score == 3:
-        print(f'Congratulations, {user_name}!')
+    print(f'Congratulations, {user_name}!')
